@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context = ".activity_main">
+
+    <item
+        android:id = "@+id/action_settings"
+        android:title="Delete"
+        app:showAsAction="never"/>
+
+    <item
+        android:id = "@+id/action_about"
+        android:title="Help"
+        app:showAsAction="never"/>
+
+    <item
+        android:id = '@+id/action_user'
+        android:orderInCategory="300"
+        android:title="Edit"
+        android:icon = "@drawable/ic_border_color"
+        app:showAsAction="ifRoom"
+        ></item>
+
+
+</menu>

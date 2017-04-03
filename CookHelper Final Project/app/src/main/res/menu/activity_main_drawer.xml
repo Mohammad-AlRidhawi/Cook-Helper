@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home_page"
+            android:icon="@drawable/ic_home_50"
+            android:title="Home Page" />
+        <item
+            android:id="@+id/menu_search"
+            android:icon="@drawable/ic_menu_search"
+            android:title="Search For Recipe" />
+        <item
+            android:id="@+id/menu_supriseMe"
+            android:icon="@drawable/ic_action_soupicon"
+            android:title="Suprise Me" />
+        <item
+            android:id="@+id/menu_recipeBook"
+            android:icon="@drawable/ic_action_bookimg"
+            android:title="Recipe Book" />
+        <item
+            android:id="@+id/menu_createRecipe"
+            android:icon="@drawable/ic_add"
+            android:title="Create Recipe" />
+
+
+
+
+    </group>
+
+
+
+
+</menu>

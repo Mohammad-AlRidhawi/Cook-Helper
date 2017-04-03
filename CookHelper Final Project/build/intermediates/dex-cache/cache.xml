@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Elias\Desktop\CookHelper-Project-master\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
+        <dex dex="C:\Users\Elias\Desktop\CookHelper-Project-master\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.2.0_9aa2059edeaaca7069e97a8aeba5cc4ed8faef0a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Elias\Desktop\CookHelper-Project-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="C:\Users\Elias\Desktop\CookHelper-Project-master\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.0_e3ab8dba3b91d044adab757e1b0a04249d607042.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Elias\Desktop\CookHelper-Project-master\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="C:\Users\Elias\Desktop\CookHelper-Project-master\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.0_48ca083623fad2a2a4b8c3264eae2d900ed8990e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Elias\Desktop\CookHelper-Project-master\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="C:\Users\Elias\Desktop\CookHelper-Project-master\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_14efe0772f4d5fcef09d44fbc46385cf486bf7d9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Elias\Desktop\CookHelper-Project-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="C:\Users\Elias\Desktop\CookHelper-Project-master\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.0_e2c3ff48a6d933b4ce297b820f4f9ee48cf952be.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Elias\Desktop\CookHelper-Project-master\app\build\intermediates\exploded-aar\com.android.support\design\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="23eb0d2998a782213b56168cbf23a0688b9111d9">
+        <dex dex="C:\Users\Elias\Desktop\CookHelper-Project-master\app\build\intermediates\pre-dexed\debug\com.android.support-design-24.2.0_ad6ab027e0f6e9506f3bcc4349701aadfd3095f0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Elias\Desktop\CookHelper-Project-master\app\build\intermediates\exploded-aar\com.weiwangcn.betterspinner\library-material\1.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="8d8c5463a1a50691e2cf66cd7ce4751c8545b584">
+        <dex dex="C:\Users\Elias\Desktop\CookHelper-Project-master\app\build\intermediates\pre-dexed\debug\com.weiwangcn.betterspinner-library-material-1.1.0_814ef8ea5cb13db36f9bf4849627a8be0e6ed3c0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Elias\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="C:\Users\Elias\Desktop\CookHelper-Project-master\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.0_36269bd85c2e3a64b8cb9649b3f81c786cc6c7df.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Elias\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Users\Elias\Desktop\CookHelper-Project-master\app\build\intermediates\pre-dexed\debug\library-2.4.0_4aa1ca88f7b9cc6e5e8a646c17230ea6536e0321.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Elias\Desktop\CookHelper-Project-master\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="C:\Users\Elias\Desktop\CookHelper-Project-master\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_73288090503e40db9c154a5ef2621b1938c7b368.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Elias\Desktop\CookHelper-Project-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="C:\Users\Elias\Desktop\CookHelper-Project-master\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.0_256cf4542e4760119d031aec86eebde4b5a2b20a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Elias\Desktop\CookHelper-Project-master\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="C:\Users\Elias\Desktop\CookHelper-Project-master\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_33aac441bf7e13834a7d64bd4353fe7553383f5e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Elias\Desktop\CookHelper-Project-master\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="C:\Users\Elias\Desktop\CookHelper-Project-master\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.0_fd4e395e7f96c267873c25b68099f2c4be404083.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Elias\Desktop\CookHelper-Project-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="C:\Users\Elias\Desktop\CookHelper-Project-master\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.0_a78ce784e7a2ca0e9d9c3e11d629988d3ecd9bf8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Elias\Desktop\CookHelper-Project-master\app\build\intermediates\exploded-aar\com.rengwuxian.materialedittext\library\2.0.3\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="052802ed198178e7133de387fbc87d3f2998482a">
+        <dex dex="C:\Users\Elias\Desktop\CookHelper-Project-master\app\build\intermediates\pre-dexed\debug\com.rengwuxian.materialedittext-library-2.0.3_b1dbc2608dd679f969773cba16940006bec60887.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Elias\Desktop\CookHelper-Project-master\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="C:\Users\Elias\Desktop\CookHelper-Project-master\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_4c1547ba007a6de2a4adf1c082792f76cd68dfe4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Elias\Desktop\CookHelper-Project-master\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="C:\Users\Elias\Desktop\CookHelper-Project-master\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.0_36aa15520b065278cbce5714124e599e9bd1bb7d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Elias\Desktop\CookHelper-Project-master\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="C:\Users\Elias\Desktop\CookHelper-Project-master\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.0_36f4f672c261ead5350d178ccdd13e287b673e2a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Elias\Desktop\CookHelper-Project-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="C:\Users\Elias\Desktop\CookHelper-Project-master\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.0_cd078c4b18e4f2be97b42152dab3285765575765.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Elias\Desktop\CookHelper-Project-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="C:\Users\Elias\Desktop\CookHelper-Project-master\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_0547b16692226950ae8526894891a90b4c03c398.jar" />
+    </item>
+
+</items>

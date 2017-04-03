@@ -1,0 +1,112 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 155 ciObject found
+ciMethod java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 2193 1 2046 0 -1
+ciMethod java/util/HashSet add (Ljava/lang/Object;)Z 4097 1 518 0 -1
+ciMethod com/android/dx/rop/code/Insn getOpcode ()Lcom/android/dx/rop/code/Rop; 1073 1 134 0 0
+ciMethod com/android/dx/rop/code/PlainInsn <init> (Lcom/android/dx/rop/code/Rop;Lcom/android/dx/rop/code/SourcePosition;Lcom/android/dx/rop/code/RegisterSpec;Lcom/android/dx/rop/code/RegisterSpecList;)V 4097 1 1077 0 -1
+ciMethod com/android/dx/rop/code/LocalItem equals (Ljava/lang/Object;)Z 2089 1 1212 0 -1
+ciMethod com/android/dx/rop/code/RegisterSpec make (ILcom/android/dx/rop/type/TypeBearer;Lcom/android/dx/rop/code/LocalItem;)Lcom/android/dx/rop/code/RegisterSpec; 17 1 1 0 -1
+ciMethod com/android/dx/rop/code/RegisterSpec makeLocalOptional (ILcom/android/dx/rop/type/TypeBearer;Lcom/android/dx/rop/code/LocalItem;)Lcom/android/dx/rop/code/RegisterSpec; 3353 1 1630 0 -1
+ciMethod com/android/dx/rop/code/RegisterSpec getType ()Lcom/android/dx/rop/type/Type; 2753 1 280 0 -1
+ciMethod com/android/dx/rop/code/RegisterSpec getReg ()I 1361 1 170 0 -1
+ciMethod com/android/dx/rop/code/RegisterSpec getLocalItem ()Lcom/android/dx/rop/code/LocalItem; 1345 1 168 0 -1
+ciMethod com/android/dx/rop/code/Rops opMarkLocal (Lcom/android/dx/rop/type/TypeBearer;)Lcom/android/dx/rop/code/Rop; 17 1 1 0 -1
+ciMethod com/android/dx/rop/code/Rop getOpcode ()I 1233 1 154 0 0
+ciMethod com/android/dx/rop/code/RegisterSpecList make (Lcom/android/dx/rop/code/RegisterSpec;)Lcom/android/dx/rop/code/RegisterSpecList; 593 1 55 0 -1
+ciMethod com/android/dx/rop/code/RegisterSpecList get (I)Lcom/android/dx/rop/code/RegisterSpec; 2153 1 2859 0 -1
+ciMethod com/android/dx/ssa/Optimizer getPreserveLocals ()Z 2241 1 803 0 -1
+ciMethod com/android/dx/ssa/SsaInsn$Visitor visitMoveInsn (Lcom/android/dx/ssa/NormalSsaInsn;)V 0 0 1 0 -1
+ciMethod com/android/dx/ssa/SsaInsn$Visitor visitNonMoveInsn (Lcom/android/dx/ssa/NormalSsaInsn;)V 0 0 1 0 -1
+ciMethod com/android/dx/ssa/SsaInsn makeFromRop (Lcom/android/dx/rop/code/Insn;Lcom/android/dx/ssa/SsaBasicBlock;)Lcom/android/dx/ssa/SsaInsn; 33 1 3 0 -1
+ciMethod com/android/dx/ssa/SsaInsn getResult ()Lcom/android/dx/rop/code/RegisterSpec; 1993 1 249 0 -1
+ciMethod com/android/dx/ssa/NormalSsaInsn mapSourceRegisters (Lcom/android/dx/ssa/RegisterMapper;)V 3393 1 1896 0 -1
+ciMethod com/android/dx/ssa/NormalSsaInsn getSources ()Lcom/android/dx/rop/code/RegisterSpecList; 2241 1 3107 0 -1
+ciMethod com/android/dx/ssa/NormalSsaInsn isNormalMoveInsn ()Z 2225 1 6224 0 0
+ciMethod com/android/dx/ssa/NormalSsaInsn accept (Lcom/android/dx/ssa/SsaInsn$Visitor;)V 2281 1 5441 0 -1
+ciMethod com/android/dx/ssa/SsaRenamer access$500 (Lcom/android/dx/ssa/SsaRenamer;I)Lcom/android/dx/rop/code/LocalItem; 1545 1 163 0 -1
+ciMethod com/android/dx/ssa/SsaRenamer access$600 (Ljava/lang/Object;Ljava/lang/Object;)Z 1545 1 163 0 -1
+ciMethod com/android/dx/ssa/SsaRenamer access$700 (Lcom/android/dx/ssa/SsaRenamer;)I 1545 1 163 0 -1
+ciMethod com/android/dx/ssa/SsaRenamer$BlockRenamer addMapping (ILcom/android/dx/rop/code/RegisterSpec;)V 2905 32769 385 0 -1
+ciMethod com/android/dx/ssa/SsaRenamer$BlockRenamer visitMoveInsn (Lcom/android/dx/ssa/NormalSsaInsn;)V 1545 1 163 0 0
+ciMethod com/android/dx/ssa/SsaRenamer$BlockRenamer processResultReg (Lcom/android/dx/ssa/SsaInsn;)V 4105 1 661 0 -1
+ciMethodData com/android/dx/ssa/NormalSsaInsn isNormalMoveInsn ()Z 2 6243 orig 264 136 112 126 119 0 0 0 0 48 186 250 20 0 0 0 0 224 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 22 1 0 0 105 186 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 152 0 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 19 0x40005 0x61e 0x1767be00 0x267 0x1767beb0 0xecf 0x70005 0x3c 0x1767b4a0 0x1711 0x0 0x0 0xb0007 0x1634 0x38 0x11a 0xf0003 0x11a 0x18 oops 3 2 com/android/dx/rop/code/PlainCstInsn 4 com/android/dx/rop/code/PlainInsn 8 com/android/dx/rop/code/Rop
+ciMethodData com/android/dx/ssa/NormalSsaInsn accept (Lcom/android/dx/ssa/SsaInsn$Visitor;)V 2 5441 orig 264 136 112 126 119 0 0 0 0 128 188 250 20 0 0 0 0 24 2 0 0 128 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 29 1 0 0 33 161 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 10 0 2 0 0 0 200 0 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 25 0x10005 0x23 0x17677b60 0x1404 0x0 0x0 0x40007 0x139a 0x68 0x8d 0x90005 0x0 0x176780d0 0x8d 0x0 0x0 0xe0003 0x8c 0x48 0x130005 0xf44 0x17678180 0x223 0x17678230 0x237 oops 4 2 com/android/dx/ssa/NormalSsaInsn 12 com/android/dx/ssa/SsaRenamer$BlockRenamer 21 com/android/dx/ssa/LiteralOpUpgrader$1 23 com/android/dx/ssa/SsaMethod$2
+instanceKlass com/android/dx/dex/file/ParameterAnnotationStruct
+instanceKlass com/android/dx/dex/file/MethodAnnotationStruct
+instanceKlass com/android/dx/dex/code/DalvCode
+instanceKlass com/android/dx/dex/code/StdCatchBuilder
+instanceKlass com/android/dx/dex/code/RopToDop
+instanceKlass com/android/dx/dex/code/OutputFinisher
+instanceKlass com/android/dx/dex/code/OutputCollector
+instanceKlass com/android/dx/rop/code/Insn$BaseVisitor
+instanceKlass com/android/dx/io/Opcodes
+instanceKlass com/android/dx/dex/code/InsnFormat
+instanceKlass com/android/dx/dex/code/Dop
+instanceKlass com/android/dx/dex/code/Dops
+instanceKlass com/android/dx/dex/code/BlockAddresses
+instanceKlass com/android/dx/dex/code/CatchBuilder
+instanceKlass com/android/dx/dex/code/DalvInsn
+instanceKlass com/android/dx/dex/code/RopTranslator$TranslationVisitor
+instanceKlass com/android/dx/dex/code/RopTranslator
+instanceKlass com/android/dx/rop/code/LocalVariableExtractor
+instanceKlass com/android/dx/ssa/back/IdenticalBlockCombiner
+instanceKlass com/android/dx/ssa/back/SsaToRop$1
+instanceKlass com/android/dx/ssa/back/SsaToRop$PhiVisitor
+instanceKlass com/android/dx/ssa/back/FirstFitLocalCombiningAllocator$1
+instanceKlass com/android/dx/ssa/back/LivenessAnalyzer$1
+instanceKlass com/android/dx/ssa/back/InterferenceGraph
+instanceKlass com/android/dx/ssa/back/LivenessAnalyzer
+instanceKlass com/android/dx/ssa/back/RegisterAllocator
+instanceKlass com/android/dx/ssa/back/SsaToRop
+instanceKlass com/android/dx/ssa/PhiTypeResolver
+instanceKlass com/android/dx/ssa/ConstCollector$1
+instanceKlass java/util/HashMap$HashIterator
+instanceKlass com/android/dx/ssa/ConstCollector
+instanceKlass com/android/dx/ssa/SsaMethod$1
+instanceKlass com/android/dx/ssa/PhiInsn$Operand
+instanceKlass com/android/dx/ssa/LiteralOpUpgrader$1
+instanceKlass com/android/dx/ssa/LiteralOpUpgrader
+instanceKlass com/android/dx/ssa/DeadCodeRemover$NoSideEffectVisitor
+instanceKlass com/android/dx/ssa/DeadCodeRemover
+instanceKlass com/android/dx/ssa/SsaMethod$2
+instanceKlass com/android/dx/ssa/SCCP
+instanceKlass com/android/dx/ssa/MoveParamCombiner$1
+instanceKlass com/android/dx/ssa/MoveParamCombiner
+instanceKlass com/android/dx/ssa/SsaRenamer$BlockRenamer$1
+instanceKlass com/android/dx/ssa/PhiInsn$Visitor
+instanceKlass com/android/dx/ssa/RegisterMapper
+instanceKlass com/android/dx/ssa/SsaRenamer$BlockRenamer
+instanceKlass com/android/dx/ssa/SsaRenamer$1
+instanceKlass com/android/dx/ssa/SsaRenamer
+instanceKlass com/android/dx/util/BitIntSet$1
+instanceKlass com/android/dx/util/IntIterator
+instanceKlass com/android/dx/util/BitIntSet
+instanceKlass com/android/dx/util/IntSet
+instanceKlass com/android/dx/ssa/SetFactory
+instanceKlass com/android/dx/ssa/Dominators$DfsWalker
+instanceKlass com/android/dx/ssa/Dominators$DFSInfo
+instanceKlass com/android/dx/ssa/SsaBasicBlock$Visitor
+instanceKlass com/android/dx/ssa/Dominators
+instanceKlass com/android/dx/ssa/DomFront$DomInfo
+instanceKlass com/android/dx/ssa/DomFront
+instanceKlass com/android/dx/ssa/LocalVariableExtractor
+instanceKlass com/android/dx/ssa/SsaBasicBlock$LabelComparator
+instanceKlass com/android/dx/ssa/SsaBasicBlock
+instanceKlass com/android/dx/rop/code/BasicBlockList$RegCountVisitor
+instanceKlass com/android/dx/ssa/SsaInsn
+instanceKlass com/android/dx/ssa/SsaInsn$Visitor
+instanceKlass com/android/dx/ssa/SsaMethod
+instanceKlass com/android/dx/ssa/SsaConverter
+instanceKlass java/lang/Class$4
+instanceKlass com/android/dx/ssa/Optimizer
+instanceKlass com/android/dx/rop/code/RopMethod
+instanceKlass com/android/dx/rop/code/Insn$Visitor
+instanceKlass com/android/dx/cf/code/Merger
+instanceKlass com/android/dx/rop/code/BasicBlock
+instanceKlass com/android/dx/rop/code/Exceptions
+instanceKlass com/android/dx/rop/code/Rop
+instanceKlass com/android/dx/rop/code/Rops
+instanceKlass com/android/dx/rop/code/RegisterSpec$ForComparison
+instanceKlass com/android/dx/dex/file/FieldAnnotationStruct

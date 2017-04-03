@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".HomePage"
+    tools:showIn="@layout/appbar_homepage"
+    android:clickable="false">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/linearLayout">
+    //android:layout_alignParentStart="false"
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/homepageimg"
+        android:id="@+id/imageView2" />
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/linearLayout"
+    android:id="@+id/linearLayout2"
+    android:orientation="horizontal">
+
+</LinearLayout>
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/bookimg"
+        android:onClick="bookbutton"
+        android:id="@+id/bookImg"
+        android:layout_weight="1"
+        android:layout_alignTop="@+id/imageView5"
+        android:layout_toRightOf="@+id/imageView5"
+        android:layout_toEndOf="@+id/imageView5" />
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:onClick="Soupbutton"
+        android:background="@drawable/soupicon"
+        android:id="@+id/imageView5"
+        android:layout_weight="1"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp" />
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/searchimg"
+        android:onClick="searchbutton"
+        android:id="@+id/searchImg"
+        android:layout_weight="1"
+        android:layout_alignTop="@+id/imageView5"
+        android:layout_toLeftOf="@+id/imageView5"
+        android:layout_toStartOf="@+id/imageView5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:text="Search"
+        android:layout_below="@+id/searchImg"
+        android:layout_alignRight="@+id/searchImg"
+        android:layout_alignEnd="@+id/searchImg"
+        android:layout_alignLeft="@+id/searchImg"
+        android:layout_alignStart="@+id/searchImg"
+        android:gravity="center"
+        android:background="@android:color/transparent"
+        android:clickable="false"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:text="Surprise Me"
+        android:gravity="center"
+        android:background="@android:color/transparent"
+        android:layout_alignTop="@+id/editText"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText3"
+        android:text="Recipe Book"
+        android:gravity="center"
+        android:background="@android:color/transparent"
+        android:layout_alignTop="@+id/editText2"
+        android:layout_alignRight="@+id/bookImg"
+        android:layout_alignEnd="@+id/bookImg" />
+
+</RelativeLayout>
