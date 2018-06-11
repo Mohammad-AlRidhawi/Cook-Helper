@@ -3,14 +3,7 @@ Alpha Version of Cook Helper Project
 
 This project corresponds to a final assesment for the course SEG 2105 at the university of Ottawa.
 
-This project was created by team Team.getName() consisting of members:
-
-Elias Farah - 8121882
-Zachary O'Beirn - 8168396
-David Ahn - 8224021
-Alex Derouchie - 8101458
-Mohammad Al Ridhawi - 4756534
-
+This project was created by team Team.getName()
 
 This application is a cooking assistant with the main functionality of storing and displaying recipes inputted by the user.
 On top of this, we have implemented several other amenities including a search function, edit function, random recipe
